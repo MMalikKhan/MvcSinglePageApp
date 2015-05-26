@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package >
+	<!--
+	Any nuget reference you add will be included in the nuget package as a dependency without you
+	having to add it in here.
+	
+	For more info on how to compose a nuspec file see http://docs.nuget.org/create/nuspec-reference 
+	-->
+
+	<metadata>
+		<!-- This will use the AssemblyName -->
+		<id>$id$</id>
+		<!-- This will use the AssemblyVersion -->
+		<version>$version$</version>
+		<title>MVCSinglePageApp</title>
+		<description>This is a test web app to explore teamcity and Octopus deploy</description>
+		<authors>Malik Khan</authors>
+		<owners>Malik Khan</owners>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<releaseNotes>Initial release.</releaseNotes>
+		<copyright>Copyright 2015</copyright>
+		<tags>ANY</tags>
+    <!--<files>
+      <file src="OzDealsWebApp\bin\Release\**" target="lib\portable-win+net40+sl50+wp8" />
+      <file src="OzDealsWebApp\**\*.cs" exclude="**\obj\**\*.*" target="src" />
+    </files>-->
+	</metadata>
+</package>
